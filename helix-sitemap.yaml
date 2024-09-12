@@ -15,3 +15,23 @@ sitemaps:
         destination: /de/blog/sitemap.xml
         hreflang: de-DE
         alternate: /de/{path}
+      bacom:
+        source: https://business.adobe.com/sitemap.xml
+        alternate: /{path}.html
+        destination: /bacom/sitemap.xml
+        hreflang: en-US
+      bacom-blog:
+        source: https://business.adobe.com/blog/sitemap.xml
+        destination: /bacom/sitemap.xml
+        hreflang: en
+        alternate: /{path}
+      bacom-au:
+        source: https://business.adobe.com/au/sitemap.xml
+        alternate: /au/{path}.html
+        destination: /au/bacom/sitemap.xml
+        hreflang: en-AU
+      bacom-au-blog:
+        source: https://business.adobe.com/blog/sitemap-au.xml
+        destination: /au/bacom/sitemap.xml
+        hreflang: en-au
+        alternate: /au/{path}
